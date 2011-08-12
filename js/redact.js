@@ -108,8 +108,8 @@ function redact(text)
   text = text.replace(/teen/gi, "<span class='redacted'>rabbit</span>");
   text = text.replace(/(\W)tit(\W)/gi, "<span class='redacted'>$1lovely$2</span>");
   text = text.replace(/tits/gi, "<span class='redacted'>lovelies</span>");
-  text = text.replace(/titties/gi, "<span class='redacted'>lovelies</span>");
-  text = text.replace(/tities/gi, "<span class='redacted'>lovelies</span>");
+  //text = text.replace(/titties/gi, "<span class='redacted'>lovelies</span>");
+  //text = text.replace(/tities/gi, "<span class='redacted'>lovelies</span>");
   text = text.replace(/turd/gi, "<span class='redacted'>bagel</span>");
   text = text.replace(/twat/gi, "<span class='redacted'>sweetness</span>");
   text = text.replace(/vibrator/gi, "<span class='redacted'>air-conditioner</span>");
